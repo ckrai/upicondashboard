@@ -1,0 +1,102 @@
+@media (max-width: 1366px) {
+.box.one {left:-60px;}
+}
+@media (max-width: 1280px) {.padd-css {padding:15% 0 0 0;}}
+
+@media (max-width:991px) {
+.banner-2 {background: url(../img/hero-bg-2.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover; width:100%; height:100%;  position:relative}
+.banner-2::before {width: 100%;background-color: rgba(246, 246, 246, 0.5);position: absolute;top:0;left: 0;z-index: 999; content:""; height:100%}
+.banner-2 .vh-100 { position:relative; z-index:999} 
+.sonar-emitter {position: relative;margin: 0 auto; width: 60px; height: 60px; 
+border-radius:9999px;
+background-color: #fff;position: relative;text-align: center;line-height: 60px;color: #fd3a69;}
+.sonar-wrapper { bottom:5%; top:auto;}
+.sonar-emitter i {font-size: 30px;}
+
+.box.one {left:-60px;}
+.box.two {right:-50px;}
+.box.three {right:-60px;}
+.box.five {right:-30px;}
+
+.contact-us h2, .contact-us h4 , .contact-us h5 { font-size:30px} 
+.contact-us h5 { margin:0;}
+.our-company-news .swiper-slide .bg-gradient-css { height:auto}
+
+.box.one img { width:100px}
+.box.two img { width:100px}
+.box.three img { width:100px}
+.box.four img { width:100px}
+.box.five img { width:100px}
+.mobile {top:0;position: relative!important;}
+.about:before { width:100%}
+.newsletter {margin:0;}
+section {padding:30px 0;}
+.our-company-news .swiper-pagination-bullets {bottom: 10px;}
+.footer .footer-top {padding-top:0;}
+.footer .footer-links ul li {font-size:16px;}
+.footer-about ul {font-size:16px;}
+.copyright p { font-size:16px;}
+.copyright {padding:20px 0;}
+}
+
+@media (max-width:768px) {
+.mySwiper .swiper-button-next {width:35px; height:35px;} 
+.mySwiper .swiper-button-next:after {color:#fff; font-size:16px;}
+.mySwiper .swiper-button-next {width:35px; height:35px; padding:0} 
+.mySwiper .swiper-button-next:after {color:#fff; font-size:16px;}
+.mySwiper .swiper-button-prev {width:35px; height:35px; padding:0} 
+.mySwiper .swiper-button-prev:after {color:#fff; font-size:16px;}
+.sonar-wrapper {padding:2rem;bottom:20%;}
+.mySwiper .swiper-button-prev {right:75px!important;}
+.about h2 br {display:none}
+ 
+.box.one {left:0;}
+.box.two {right:0;}
+.box.four {left:0;}
+.box.three {right:0}
+.box.five {right:0;}
+.c-header-home_footer { display:none} 
+}
+
+@media (max-width:767px) {
+.services { background:#fd3a69}
+.services p {color:#fff} 
+.swiper-slide p {color:#2c2c2c}
+.swiper-wrapper {padding-bottom:0;}
+#testimonials {margin-top:0;}
+.trusted-partner {padding:0 0 30px 0;}
+.about-sec {padding:0;}
+.contact-us {margin-top:0;}
+.newsletter {padding:50px 0 50px  0}
+.contact-us { background:#fd3a69}
+}
+
+
+@media (max-width:480px) {
+.heading h2 {font-size: 2rem;}
+.heading h2 br  {display:none}
+.footer .footer-links ul a {padding:6px 0; font-size:15px;}
+.footer .footer-links ul li {padding:2px 0;}
+.footer-about li { font-size:15px;}
+.footer h4 { font-size:20px;}
+.footer .footer-links {margin-bottom:10px;}
+.input-group .btn {padding: 6px 10px 6px 10px;}
+.footer h4 {margin-bottom:15px;}
+.copyright p { font-size:14px;}
+.input-group2 .form-control { padding:5px}
+.mobile {width:320px; height:665px; background-size:100%; margin:0 auto}
+.mobile-sceen .swiper-slide { height:60%!important} 
+.mobile-sceen {width: 100%; height: 86.8%;}
+.mobile-app p { font-size:15px;}
+.padd-css {padding:40% 0 0 0;}
+.slideshow__slide-caption-title {font-size: 30px;}
+.contact-us h2, .contact-us h4, .contact-us h5 {font-size:27px;}
+.contact-us { min-height:inherit}
+}
+@media (max-width:414px) {
+.contact-us h2, .contact-us h4, .contact-us h5 {font-size: 20px;}
+}

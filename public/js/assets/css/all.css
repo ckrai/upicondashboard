@@ -1,0 +1,41 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+Project: Cesa
+Primary use: Cesa
+-------------------------------------------------------------------
+[Table of contents]
+1. Body / body
+2. Navbar / .navmenu  
+3. Header / .hero
+5. About / .about-sec
+6. Services / #services 
+7. Mobile-App / .mobile-app
+8. Trusted Partner / .trusted-partner
+9. our-client / .our-client
+10. Blog / .blog
+11. Newsletter / .newsletter
+12. Footer / #footer
+-------------------------------------------------------------------*/
+
+/*Vendor CSS Files*/
+@import url('../vendor/bootstrap/css/bootstrap.min.css');
+@import url('../vendor/bootstrap-icons/bootstrap-icons.css');
+@import url('../vendor/glightbox/css/glightbox.min.css');
+@import url('../vendor/swiper/swiper-bundle.min.css');
+@import url('../vendor/aos/aos.css'); 
+/*Our Custom CSS*/
+
+/*Scrollbar Custom CSS */
+@import url('../vendor/sidebar/sidebar.css'); 
+@import url('../vendor/sidebar/jquery.mCustomScrollbar.min.css'); 
+/*Scrollbar Custom CSS */
+
+/*parallax*/
+@import url('../vendor/parallax-slideshow/style2.css'); 
+/*parallax*/
+
+/*Template Main CSS File */
+@import url('main.css'); 
+@import url('responsive.css'); 
+ 
+ 
